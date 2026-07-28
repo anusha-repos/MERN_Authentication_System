@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/login.css">
+
+    <script src="js/toast.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>MERN AUTHENTICATION SYSTEM</h1>
+
+    <div class="card">
+
+        <h2>Login</h2>
+
+        <div class="input-box">
+            <i class="fa-solid fa-user"></i>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter Username">
+        </div>
+
+        <div class="input-box">
+            <i class="fa-solid fa-lock"></i>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter Password">
+
+            <i class="fa-solid fa-eye eye"
+                onclick="togglePassword()"></i>
+        </div>
+
+       <button id="loginBtn" onclick="login()">
+        Login
+        </button>
+
+        <p class="links">
+            Don't have an account?
+
+            <a href="signup.html">
+                Create Account
+            </a>
+        </p>
+
+    </div>
+
+</div>
+
+<script src="js/login.js"></script>
+
+</body>
+
+</html>
