@@ -1,4 +1,5 @@
-const API = "http://localhost:5000";
+const API = "https://mern-authentication-system-1-ml63.onrender.com";
+
 
 const token = localStorage.getItem("token");
 
